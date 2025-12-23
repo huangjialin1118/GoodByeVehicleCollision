@@ -2,12 +2,12 @@
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
 	<ModId Value="129323" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="Good Bye Vehicle Collision(Beta)" />
+	<DisplayName Value="Collision Be Gone (Beta)" />
 	<!--Short description of the mod-->
 	<ShortDescription Value="Enables vehicle clipping while ensuring AI still responds to traffic lights, pedestrians, and trains. Obliterate all in-game traffic issues with ease." />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<LongDescription>
-# Good Bye Vehicle Collision
+# Collision Be Gone (Beta)
 
 Disables vehicle-to-vehicle collision avoidance. Vehicles will drive through each other instead of waiting in traffic queues.
 
@@ -23,12 +23,39 @@ Disables vehicle-to-vehicle collision avoidance. Vehicles will drive through eac
 - Trains at railroad crossings
 - Parking scenarios
 
+## Requirements
+- **Disable Accidents** mod is required to prevent chain collisions caused by vehicle overlapping
+
 ## Settings
 - Can be enabled/disabled in the game options menu
 
 Inspired by the original Collision Be Gone mod for Cities: Skylines 1.
 
-This mod is currently in its initial version, with significant room for improvement and refinement.
+---
+
+# Collision Be Gone (测试版)
+
+禁用车辆之间的碰撞避让。车辆将直接穿过彼此，而不是在交通队列中等待。
+
+## 功能特性
+- 车辆忽略其他汽车和自行车
+- 车辆忽略行人
+- 穿过障碍物时平滑加速
+
+## 仍然遵守
+- 交通信号（红灯）
+- 速度限制
+- 紧急车辆（警车、消防车、救护车）
+- 铁路道口的火车
+- 停车场景
+
+## 前置要求
+- 需要安装 **Disable Accidents** 模组，以防止车辆重叠导致的连环车祸
+
+## 设置
+- 可在游戏选项菜单中启用/禁用
+
+灵感来源于城市：天际线1的 Collision Be Gone 模组。
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
@@ -37,19 +64,19 @@ This mod is currently in its initial version, with significant room for improvem
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/good-bye-vehicle-collision.1891346/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.0" />
+	<ModVersion Value="1.0.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.5.*" />
 	<!--Dependency for the mod, can be set multiple times-->
-	<Dependency Id="" />
+	<Dependency Id="105715" />
 	<!--Required DLC, can be set multiple times-->
 	<RequiredDLC Value="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog>Initial release</ChangeLog>
+	<ChangeLog>v1.0.1: Renamed to Collision Be Gone, added GitHub link, forum link, and Disable Accidents dependency</ChangeLog>
 	<!--External link, can be set multiple times-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/huangjialin1118/CollisionBeGone" />
 	<!--Supported values Public, Private, Unlisted-->
 	<AccessLevel Value="Public" />
 </Publish>
