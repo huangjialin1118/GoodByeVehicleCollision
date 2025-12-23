@@ -1,13 +1,14 @@
-# Collision Be Gone
+# Good Bye Vehicle Collision (Beta)
 
 [![Cities: Skylines 2](https://img.shields.io/badge/Cities%3A%20Skylines%202-Mod-blue)](https://www.paradoxinteractive.com/games/cities-skylines-ii)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Beta](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/huangjialin1118/GoodByeVehicleCollision)
 
-**Collision Be Gone** is a Cities: Skylines 2 mod that intelligently removes vehicle-to-vehicle collision blocking, allowing cars to pass through each other while preserving essential traffic rules.
+**Good Bye Vehicle Collision** is a Cities: Skylines 2 mod that intelligently removes vehicle-to-vehicle collision blocking, allowing cars to pass through each other while preserving essential traffic rules.
 
 ---
 
-**Collision Be Gone** 是一个城市：天际线2的模组，它智能地移除车辆之间的碰撞阻塞，让车辆可以相互穿过，同时保留必要的交通规则。
+**Good Bye Vehicle Collision** 是一个城市：天际线2的模组，它智能地移除车辆之间的碰撞阻塞，让车辆可以相互穿过，同时保留必要的交通规则。
 
 ---
 
@@ -164,7 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Changelog | 更新日志
 
-### v1.0.0
-- Initial release | 首次发布
+### v1.0.0-beta
+- Initial beta release | 首次测试版发布
 - Smart collision removal for vehicles | 智能车辆碰撞移除
 - Preserves traffic signals, emergency vehicles, and trains | 保留交通信号、紧急车辆和火车
