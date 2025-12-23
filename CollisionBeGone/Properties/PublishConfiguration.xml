@@ -1,0 +1,55 @@
+<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="129323" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Good Bye Vehicle Collision(Beta)" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Enables vehicle clipping while ensuring AI still responds to traffic lights, pedestrians, and trains. Obliterate all in-game traffic issues with ease." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<LongDescription>
+# Good Bye Vehicle Collision
+
+Disables vehicle-to-vehicle collision avoidance. Vehicles will drive through each other instead of waiting in traffic queues.
+
+## Features
+- Vehicles ignore other cars and bicycles
+- Vehicles ignore pedestrians
+- Smooth acceleration when passing through obstacles
+
+## Still Respected
+- Traffic signals (red lights)
+- Speed limits
+- Emergency vehicles (police, fire, ambulance)
+- Trains at railroad crossings
+- Parking scenarios
+
+## Settings
+- Can be enabled/disabled in the game options menu
+
+Inspired by the original Collision Be Gone mod for Cities: Skylines 1.
+
+This mod is currently in its initial version, with significant room for improvement and refinement.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.5.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Required DLC, can be set multiple times-->
+	<RequiredDLC Value="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog>Initial release</ChangeLog>
+	<!--External link, can be set multiple times-->
+	<ExternalLink Type="" Url="" />
+	<!--Supported values Public, Private, Unlisted-->
+	<AccessLevel Value="Public" />
+</Publish>
