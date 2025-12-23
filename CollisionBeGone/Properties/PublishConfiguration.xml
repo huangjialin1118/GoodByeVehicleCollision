@@ -4,7 +4,7 @@
 	<!--Name of the mod to display to players-->
 	<DisplayName Value="Collision Be Gone (Beta)" />
 	<!--Short description of the mod-->
-	<ShortDescription Value="Enables vehicle clipping while ensuring AI still responds to traffic lights, pedestrians, and trains. Obliterate all in-game traffic issues with ease." />
+	<ShortDescription Value="Enables vehicle clipping while ensuring AI still responds to traffic lights, pedestrians, and trains. | 启用车辆穿透，同时确保AI仍然响应交通信号灯、行人和火车。" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<LongDescription>
 # Collision Be Gone (Beta)
